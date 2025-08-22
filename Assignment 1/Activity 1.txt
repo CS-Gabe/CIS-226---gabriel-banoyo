@@ -1,0 +1,14 @@
+BEGIN
+	PROMPT user for stock ticker symbol
+	STORE input as stSymbol
+	
+	PROMPT user for number of shares
+	STORE input as nShares
+
+	PROMPT user for cost per share
+	STORE input as cpShares
+
+	CALCULATE totalcost = nShares * cpShare
+
+	DISPLAY "Your total cost per share for {stSymbol} is {totalcost} 
+END
